@@ -1,8 +1,7 @@
-<style>
+
 * {
     font-family: 'Times New Roman', Times, serif;
 }
-</style>
 
 div {
     border: 1px;
@@ -14,7 +13,6 @@ body {
     background-color: #E1DBC7;
     margin-left: 15%;
     margin-right: 15%;
-    font-family: 'Times New Roman', Times, serif;
   }
 
 .header {
