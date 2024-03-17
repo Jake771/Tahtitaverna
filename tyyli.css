@@ -1,0 +1,112 @@
+<style>
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+</style>
+
+div {
+    border: 1px;
+    border-color: #E1DBC7;
+    border-style: solid;
+}
+
+body {
+    background-color: #E1DBC7;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.header {
+    background-image: linear-gradient(  rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("lumbridge.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 150px 10px 150px 10px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content1 {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    text-align: ;
+}
+
+.menu {
+    background-image: linear-gradient(  rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("baari.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.menu h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 100px 10px 100px 10px;
+}
+
+.ravintolat {
+    background-image: linear-gradient(  rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("bluemooninn.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.ravintolat h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 100px 10px 100px 10px;
+}
+
+.otsikko {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+img {
+    float: left;
+    max-width: 70px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E1DBC7;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #ebe6d7;
+}
+  
+.active {
+    background-color: #BEA884;
+}
